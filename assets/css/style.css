@@ -41,7 +41,7 @@
 
 .button{
     border-radius: 40px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border: none;
 }
 
@@ -120,6 +120,11 @@
     font-family: inherit;
 }
 
+.margin{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 
 /* FOOTER */
 footer{
@@ -145,6 +150,7 @@ footer{
 #simbol{
     margin-left: 6px;
 }
+
 .ita img{
     max-width: 25px;
     margin-right: 4px;
