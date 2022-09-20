@@ -2,7 +2,11 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
+/* NAV E HEADER */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -10,21 +14,19 @@
     background-color: #3161e0;
     height: 80px;
     align-items: center;
-    font-size: clamp(16px,2vw,20px);
+    font-size: clamp(12px,2vw,15px);
 
-}
-
-.bottoni{
-    margin: 10px;
-    padding: 10px;
 }
 
 .container{
     padding: 120px 40px 120px 40px;
     color: white;
     background-color:lightblue;
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 .section-alpha{
     width: 65%;
@@ -39,7 +41,7 @@
 
 .button{
     border-radius: 40px;
-    padding: 7px 16px;
+    padding: 10px 40px;
     border: none;
 }
 
@@ -53,10 +55,19 @@
     color: white;
 }
 
+.m-button{
+    margin-top:40px;
+}
+
+.m-button-bottom{
+    margin-bottom: 30px;
+}
+
 .mid{
     align-items: center;
 }
 
+/* SEZIONI */
 .flex{
     display: flex;
 }
@@ -80,7 +91,7 @@
 }
 
 .blue{
-    background-color: lightblue;
+    background-color: #8ea1e1;
     color: white;
 }
 
@@ -109,6 +120,8 @@
     font-family: inherit;
 }
 
+
+/* FOOTER */
 footer{
     margin-top: 10px;
 }
@@ -124,6 +137,18 @@ footer{
     margin-top:15px;
 }
 
+.ita{
+    align-items: center;
+    display: flex;
+}
+
+#simbol{
+    margin-left: 6px;
+}
+.ita img{
+    max-width: 25px;
+    margin-right: 4px;
+}
 
 .between{
     justify-content: space-between ;
@@ -134,6 +159,10 @@ footer{
     height: 1px;
     margin: 32px auto 32px auto;
     background-color: #3161e0;
+}
+
+.text-blue{
+    color: #8ea1e1;
 }
 
 
