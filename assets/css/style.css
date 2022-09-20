@@ -111,6 +111,7 @@
 
 .right{
     margin-right: 350px;
+    flex-basis: 60%;
 }
 
 .testo{
