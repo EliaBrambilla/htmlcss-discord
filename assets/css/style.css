@@ -106,7 +106,7 @@
 }
 
 .left{
-    margin-left: 150px;
+    margin-left: 190px;
 }
 
 .right{
@@ -125,17 +125,21 @@
     padding-bottom: 20px;
 }
 
-
 /* FOOTER */
 footer{
     margin-top: 10px;
 }
 
+.social{
+    max-height: 20px;
+    margin:6px;
+}
 .foot{
     justify-content: space-around;
     align-items: center;
     width: 85%;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .foot div{
@@ -164,7 +168,7 @@ footer{
     width: 85%;
     height: 1px;
     margin: 32px auto 32px auto;
-    background-color: #3161e0;
+    background-color: #8ea1e1;
 }
 
 .text-blue{
